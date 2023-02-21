@@ -1,4 +1,4 @@
-package ru.nikkosmo;
+package ru.nikkosmo.covidstatistics.config;
 
 import io.micronaut.core.convert.ConversionContext;
 import io.micronaut.core.convert.TypeConverter;

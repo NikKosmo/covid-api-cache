@@ -1,4 +1,4 @@
-package ru.nikkosmo.covid19api;
+package ru.nikkosmo.covidstatistics.covid19api;
 
 import io.micronaut.http.annotation.Get;
 import io.micronaut.http.annotation.QueryValue;
@@ -12,5 +12,5 @@ public interface CovidDataClient {
 
 
     @Get("/world")
-    List<CovidDay> getWorldData(@QueryValue Instant from, @QueryValue Instant to);
+    List<CovidDay> getDayStatisticsForPeriod(@QueryValue Instant from, @QueryValue Instant to);
 }

@@ -1,4 +1,4 @@
-package ru.nikkosmo.covid19api;
+package ru.nikkosmo.covidstatistics.covid19api;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

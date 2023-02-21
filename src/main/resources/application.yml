@@ -1,6 +1,6 @@
 micronaut:
   application:
-    name: covidApiCache
+    name: covidStatisticsService
   router:
     static-resources:
       swagger:
@@ -13,8 +13,7 @@ micronaut:
     services:
       covid-19-api:
         url: https://api.covid19api.com
-    client:
-      log-level: debug
+
 netty:
   default:
     allocator:
